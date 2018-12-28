@@ -1,0 +1,89 @@
+body {
+	background: url(images/achtergrond.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #004a99;
+
+}
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background: rgba(230, 242, 255, 0.99);
+	padding:15px;
+}
+.navbar ul {
+	background: background: rgba(230, 242, 255, 0.9);
+	margin:5px;
+	color: #333;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background: rgba(204, 229, 255, 0.9);
+}
+
+#topheader {
+	
+	background: url(images/header1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+#topheader .container {
+background: rgba(230, 242, 255, 0.6);
+padding: 5px 15px 10px 20px;
+color: #004a99;
+margin-bottom: 10px;
+margin-top:10px;
+}
+.toppie {
+	height:80px;
+}
+.formm {
+padding: 20px;
+font-size:20px;
+}
+footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url(images/header1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+main {
+	padding:20px;
+	border: 20px solid white;
+	border-left: none;
+	border-right: none;
+	margin: 0px;
+} 
+footer .container {
+background: rgba(230, 242, 255, 0.6);
+padding: 20px;
+color: #004a99;
+margin-bottom: 10px;
+margin-top:10px;
+}
+footer .container .row {
+	background: none;
+}
+.container {
+	padding: 15px;
+	border-radius: 5px;
+	
+}
+.row {
+	margin: 0px;
+	border-radius: 3px;
+}
+.container .row {
+	background: rgba(230, 242, 255, 0.8);
+}
+.card {
+	padding: 15px 5px 15px 5px;
+}
